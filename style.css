@@ -1,0 +1,129 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  color: blue;
+  font-family: 'principal';
+}
+
+@font-face {
+  font-family: 'principal';
+  src: url('fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf') format(opentype);
+  font-weight: normal;
+  font-style: normal;
+
+  /* 
+  Tipos de format()
+  - opentype (otf)
+  - truetype (ttf)
+  - embedded-opentype
+  - truetype-aat (Apple Advanced Typography)
+  - svg
+  */
+}
+
+@font-face {
+  font-family: 'titulos';
+  src: url('fonts/coolvetica\ rg.otf') format(opentype);
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+header{
+  background-image: url(imagens-desktop/foto-do-topo.png);
+  margin-bottom: 100px;
+  padding-bottom: 360px;
+  background-repeat: no-repeat;
+}
+
+header > section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header img{
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+menu{
+  display: inline;
+  padding-top: 40px;
+  padding-right: 50px;
+}
+
+menu ul{
+  display: flex;
+  gap: 30px;
+}
+
+menu ul li{
+  list-style-type: none;
+}
+
+menu > ul > li > a{
+  padding: 10px;
+  text-decoration: none;
+  color: #b48464;
+  font-family: 'principal';
+  font-size: 20px;
+}
+
+header div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 250px;
+} 
+
+.btn{
+  text-decoration: none;
+  color: white;
+  background: #61ce70;
+  width: 200px;
+  margin-top: 50px;
+  padding: 0px 50px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.btn img{
+  padding-bottom: 20px;
+}
+
+.sobre{
+  color: #b48464;
+  font-family: 'principal';
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
+div#bloco-2{
+  border: 2px solid rgba(0, 0, 0, 0.61);
+  border-radius: 10px;
+  margin: 0vw 20vw 10vw;
+  display: flex;
+  flex-direction: row;
+}
+
+div#bloco-2 p{
+  color: rgba(0, 0, 0, 0.555);
+  text-indent: 10px;
+  line-height: 23px;
+  word-spacing: 5px;
+  margin-top: 50px;
+  padding: 30px 100px 20px 100px;
+  font-size: 18px;
+}
