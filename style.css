@@ -124,6 +124,24 @@ div#bloco-2 p{
   line-height: 23px;
   word-spacing: 5px;
   margin-top: 50px;
-  padding: 30px 100px 20px 100px;
+  padding: 30px 40px 20px 50px;
   font-size: 18px;
+}
+
+div#bloco-3{
+  background-image: url(imagens-desktop/foto-do-bloco-3.png);
+  padding: 500px;
+  background-repeat: no-repeat;
+}
+
+.bloco-3-txt{
+  color: white;
+  font-family: 'principal';
+  font-size: 2.5em;
+  margin-top: -350px;
+  text-align: center;
+}
+
+.icones{
+  display: flex;
 }
