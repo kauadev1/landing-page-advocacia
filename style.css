@@ -70,6 +70,11 @@ menu > ul > li > a{
   font-size: 20px;
 }
 
+menu > ul > li > a:hover{
+  color: #614430;
+  text-decoration: underline;
+}
+
 header div{
   display: flex;
   flex-direction: column;
@@ -96,6 +101,11 @@ header h1{
   gap: 10px;
   border-radius: 10px;
   width: fit-content;
+}
+
+.btn:hover{
+  background-color: #509c5a;
+  
 }
 
 .btn img{
@@ -159,6 +169,7 @@ div#bloco-3{
   justify-content: center;
   display: flex;
   gap: 200px;
+  text-align: center;
 }
 
 .icones2{
@@ -178,23 +189,52 @@ footer{
 }
 
 div#rodape{
-  padding: 100px;
+  padding: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  gap: 200px;
+  gap: 100px;
+  margin-left: 250px;
+}
+
+div#rodape .img{
+  margin-top: 30px;
 }
 
 div#rodape h3{
   text-indent: 30px;
+  margin-bottom: 25px;
+  font-size: 1.6em;
+  font-weight: lighter;
 }
+
+div#rodape p{
+  margin: 10px 0px;
+  padding: 4px 0px;
+}
+
 
 div#rodape h3, p{
   color: white;
   font-family: 'principal';
 }
 
-div.contato{
-  margin: 0px 100px;
+div#rodape img{
+  margin: 0px 8px -3px 0px;
 }
 
+div.contato{
+  margin-left: 200px;
+}
+
+div.endereco p{
+  text-align: center;
+  padding: 4px 0px;
+}
+
+div.trs{
+  margin-top: 7px;
+}
+
+.cns{
+  margin-left: -20px;
+}
