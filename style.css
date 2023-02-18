@@ -126,7 +126,8 @@ div#bloco-2{
   margin: 0vw 20vw 10vw;
   display: flex;
   flex-direction: row;
-  
+  align-items: center;
+  justify-content: center;
 }
 
 div#bloco-2 p{
@@ -134,9 +135,8 @@ div#bloco-2 p{
   text-indent: 10px;
   line-height: 23px;
   word-spacing: 5px;
-  margin-top: 50px;
-  padding: 30px 40px 20px 50px;
   font-size: 18px;
+  padding: 0vw 2vw;
 }
 
 div#bloco-3{
@@ -148,7 +148,7 @@ div#bloco-3{
 .bloco-3-txt{
   color: white;
   font-family: 'principal';
-  font-size: 2.5em;
+  font-size: 2.2vw;
   margin-top: -350px;
   text-align: center;
   margin-bottom: 130px;
@@ -193,7 +193,7 @@ div#rodape{
   display: flex;
   flex-direction: row;
   gap: 100px;
-  margin-left: 250px;
+  margin-left: 15vw;
 }
 
 div#rodape .img{
