@@ -154,7 +154,8 @@ div#bloco-2 p{
 
 div#bloco-3{
   background-image: url(imagens-desktop/foto-do-bloco-3.png);
-  padding: 500px;
+  width: 100%;
+  padding: 500px 0px;
   background-repeat: no-repeat;
 }
 
@@ -187,7 +188,7 @@ div#bloco-3{
 }
 
 div#bloco-4{
-  margin-top: -240px;
+  margin: -240px auto 0px auto;
   text-align: center;
 }
 
@@ -272,13 +273,17 @@ div#bloco-2{
   }
 
   header section img{
-    margin: auto;
-    padding: auto;
+    margin-left: 33vw;
     height: 80px;
     width: 80px;
   }
 
   header div{
     margin-top: -20px;
+  }
+
+  div#bloco-4{
+    margin: auto;
+
   }
 }
