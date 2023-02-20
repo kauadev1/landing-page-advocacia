@@ -267,7 +267,7 @@ div#bloco-2{
   }
 }
 
-@media screen and (min-width: 1px) and (max-width: 800px) {
+@media screen and (min-width: 1px) and (max-width: 900px) {
   menu{
     display: none;
   }
