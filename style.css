@@ -51,6 +51,15 @@ header img{
   padding-left: 50px;
 }
 
+span#menu{
+  display: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  padding-top: 5px;
+  color: white;
+}
+
 menu{
   display: inline;
   padding-top: 40px;
@@ -244,7 +253,8 @@ div.trs{
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 1250px) {
+
+@media screen and (min-width: 1px) and (max-width: 1250px) {
   
 /* Tablet */
 div#bloco-2{
@@ -252,4 +262,32 @@ div#bloco-2{
   padding-bottom: 20px;
 }
 
+}
+
+@media screen and (max-width: 560px){
+  div#bloco-2{
+    margin: auto;
+    margin-bottom: 200px;
+  }
+}
+
+@media screen and (min-width: 1px) and (max-width: 800px) {
+  span#menu{
+    display: block;
+    padding: 40px 70px;
+    font-size: 2em;
+  }
+
+  div.texto-e-botao{
+    margin-top: -20px;
+  }
+
+  menu{
+    background-color: grey;
+    display: flex;
+  }
+  
+  menu ul{
+    display: block;
+  }
 }
