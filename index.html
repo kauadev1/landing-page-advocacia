@@ -13,13 +13,10 @@
   <header id="header">         
       <section>
         <img src="imagens-desktop/logo-pequena.png" alt="logo=advocacia" height="70px" width="70px">
-        <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">
-          menu
-          </span>
         <menu id="itens">
           <ul>
-            <li><a href="#header">inicio</a></li>
-            <li><a href="#sbr">sobre</a></li>
+            <li><a class="apagar" href="#header">inicio</a></li>
+            <li><a class="apagar" href="#sbr">sobre</a></li>
             <li><a href="#bloco-3">atuação</a></li>
             <li><a href="#bloco-4"> localização</a></li>
             <li><a href="#rodape">contato</a></li>
@@ -107,14 +104,5 @@
         </div>
     </div>
   </footer>
-  <script>
-    function clickMenu(){
-        if (itens.style.display == 'block') {
-          itens.style.display = 'none'
-        } else {
-          itens.style.display = 'block'
-        }
-    }
-  </script>
 </body>
 </html>

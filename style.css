@@ -272,22 +272,17 @@ div#bloco-2{
 }
 
 @media screen and (min-width: 1px) and (max-width: 800px) {
-  span#menu{
-    display: block;
-    padding: 40px 70px;
-    font-size: 2em;
-  }
-
-  div.texto-e-botao{
-    margin-top: -20px;
-  }
-
   menu{
-    background-color: grey;
-    display: flex;
+    display: none;
   }
-  
-  menu ul{
-    display: block;
+
+  header section img{
+    padding-left: 43vw;
+    height: 80px;
+    width: 80px;
+  }
+
+  header div{
+    margin-top: -20px;
   }
 }
