@@ -280,15 +280,35 @@ div#bloco-2{
     margin-top: -20px;
   }
 
-.icones1{
+  div#bloco-3{
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.932);
+    padding-bottom: 50px;
+    padding-bottom: 200px;
+  }
+
+  .bloco-3-txt{
+    font-size: 2em;
+  }
+
+  .icones1{
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    margin-bottom: 200px;
   }
 
   .icones2{
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    text-align: center;
   }
+
+  .a{
+    margin-top: -12px
+  }
+  
+  div#bloco-4{
+    margin-top: 100px;
+  }
+
 }
