@@ -1,9 +1,6 @@
-*{
-  padding: 0px;
-  margin: 0px;
-  color: blue;
-  font-family: 'principal';
-}
+@charset "UTF-8";
+
+
 
 @font-face {
   font-family: 'principal';
@@ -27,6 +24,13 @@
   font-weight: normal;
   font-style: normal;
 
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  color: blue;
+  font-family: 'principal';
 }
 
 header{
@@ -237,4 +241,15 @@ div.trs{
 
 .cns{
   margin-left: -20px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 1250px) {
+  
+/* Tablet */
+div#bloco-2{
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
 }
