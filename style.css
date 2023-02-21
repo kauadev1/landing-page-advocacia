@@ -236,8 +236,7 @@ div.contato{
 }
 
 div.endereco p{
-  text-align: center;
-  padding: 4px 0px;
+ text-align: center;
 }
 
 div.trs{
@@ -311,4 +310,22 @@ div#bloco-2{
     margin-top: 100px;
   }
 
+  div#rodape{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rodape-logo{
+    margin: auto;
+  }
+
+  div.contato{
+    margin-left: 0px;
+    margin: auto;
+  }
+
+  div.endereco{
+    margin-left: 0px;
+    margin: auto;
+  }
 }
