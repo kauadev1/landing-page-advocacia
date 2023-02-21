@@ -201,8 +201,8 @@ div#rodape{
   padding: 50px;
   display: flex;
   flex-direction: row;
-  gap: 100px;
-  margin-left: 15vw;
+  justify-content: center;
+  gap: 20vw;
 }
 
 div#rodape .img{
@@ -229,10 +229,6 @@ div#rodape h3, p{
 
 div#rodape img{
   margin: 0px 8px -3px 0px;
-}
-
-div.contato{
-  margin-left: 200px;
 }
 
 div.endereco p{
