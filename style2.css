@@ -1,0 +1,292 @@
+@charset "UTF-8";
+
+
+
+@font-face {
+  font-family: 'principal';
+  src: url('fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf') format(opentype);
+  font-weight: normal;
+  font-style: normal;
+
+  /* 
+  Tipos de format()
+  - opentype (otf)
+  - truetype (ttf)
+  - embedded-opentype
+  - truetype-aat (Apple Advanced Typography)
+  - svg
+  */
+}
+
+@font-face {
+  font-family: 'titulos';
+  src: url('fonts/coolvetica\ rg.otf') format(opentype);
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  color: blue;
+  font-family: 'principal';
+}
+
+header{
+  background-color: black;
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+  
+}
+
+header > section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header img{
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+main h2{
+  display: flex;
+  flex-direction: row;
+}
+
+span{
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+}
+
+menu{
+  display: inline;
+  padding-top: 40px;
+  padding-right: 50px;
+}
+
+menu ul{
+  display: flex;
+  gap: 30px;
+}
+
+menu ul li{
+  list-style-type: none;
+}
+
+menu > ul > li > a{
+  padding: 10px;
+  text-decoration: none;
+  color: #b48464;
+  font-family: 'principal';
+  font-size: 20px;
+}
+
+menu > ul > li > a:hover{
+  color: #614430;
+  text-decoration: underline;
+}
+
+header div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 250px;
+} 
+
+.img{
+  width: 100%;
+}
+
+div#atn{
+  margin: 100px;
+}
+
+div#atn p{
+  color: rgba(0, 0, 0, 0.664);
+  padding: 30px 60px 0px 60px;
+  line-height: 1.5em;
+  text-indent: 30px;
+}
+
+.titulos{
+  background-color: #ececec;
+  border: solid rgba(0, 0, 0, 0.342) 1px;
+  color: black;
+  font-weight: lighter;
+  font-size: 1.3em;
+  padding: 10px 10px 10px 30px;
+  text-align: left;
+}
+
+div.paragrafos{
+  border: solid rgba(0, 0, 0, 0.342) 1px;
+}
+
+span{
+color: black;
+text-align: right;
+}
+
+.btn{
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: white;
+  background: #61ce70;
+  width: 200px; 
+  padding: 0px 20px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.btn:hover{
+  background-color: #509c5a;
+  
+}
+
+.btn img{
+  padding: 15px 0px 15px 20px;
+}
+
+footer{
+  margin-top: 100px;
+  background-color: black;
+}
+
+div#rodape{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20vw;
+}
+
+div#rodape .logo{
+  margin-top: 30px;
+}
+
+div#rodape h3{
+  text-indent: 30px;
+  margin-bottom: 25px;
+  font-size: 1.6em;
+  font-weight: lighter;
+}
+
+div#rodape p{
+  margin: 10px 0px;
+  padding: 4px 0px;
+}
+
+
+div#rodape h3, p{
+  color: white;
+  font-family: 'principal';
+}
+
+div#rodape img{
+  margin: 0px 8px -3px 0px;
+}
+
+div.endereco p{
+ text-align: center;
+}
+  
+  @media screen and (max-width: 560px){
+    div#bloco-2{
+      margin: auto;
+      margin-bottom: 200px;
+    }
+  }
+  
+  @media screen and (min-width: 1px) and (max-width: 900px) {
+    .himg{
+      text-align: center;
+      padding-left: 0;
+    }
+    
+    menu{
+      display: none;
+    }
+  
+    header > section > div.himg{
+      margin: auto;
+    }
+  
+    header div{
+      margin-top: -20px;
+    }
+  
+    .himg{
+      text-align: center;
+      padding-left: 0
+      ;
+    }
+  
+    div#bloco-3{
+      background-image: none;
+      background-color: rgba(0, 0, 0, 0.932);
+      padding-bottom: 50px;
+      padding-bottom: 200px;
+    }
+  
+    .bloco-3-txt{
+      font-size: 2em;
+    }
+  
+    .icones1{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 200px;
+    }
+  
+    .icones2{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .a{
+      margin-top: -12px
+    }
+    
+    div#bloco-4{
+      margin-top: 100px;
+    }
+  
+    div#rodape{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .rodape-logo{
+      text-align: center;
+    }
+  
+    div.contato{
+      margin-left: 0px;
+      margin: auto;
+    }
+  
+    .rodape-titulo{
+      text-align: center;
+  }
+  }
