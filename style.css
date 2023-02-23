@@ -275,6 +275,12 @@ div#bloco-2{
     margin-top: -20px;
   }
 
+  .himg{
+    text-align: center;
+    padding-left: 0
+    ;
+  }
+
   div#bloco-3{
     background-image: none;
     background-color: rgba(0, 0, 0, 0.932);
@@ -312,7 +318,7 @@ div#bloco-2{
   }
 
   .rodape-logo{
-    margin: auto;
+    text-align: center;
   }
 
   div.contato{
@@ -320,8 +326,7 @@ div#bloco-2{
     margin: auto;
   }
 
-  div.endereco{
-    margin-left: 0px;
-    margin: auto;
-  }
+  .rodape-titulo{
+    text-align: center;
+}
 }
